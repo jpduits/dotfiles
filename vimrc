@@ -33,6 +33,8 @@ nmap <Leader>es :e ~/.vim/snippets<cr>
 nmap <Leader>ep :e ~/.vim/plugins.vim<cr>
 "Add simple hightlight removal
 nmap <Leader><space> :nohlsearch<cr>
+"Close all open buffers
+nmap <Leader>b :bufdo bd!<cr>
 
 "-------- Split management --------"
 nmap <C-J> <C-W><C-J>			"down

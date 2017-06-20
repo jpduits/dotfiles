@@ -21,7 +21,7 @@ snippet smet
 snippet rg
 	Router::get('${1}', '${2}');
 
-snippet rga
+snippet rgc
 	Router::get('${1}', function() {
 		${2}
 	});
@@ -30,10 +30,23 @@ snippet rp
 	Router::post('${1}', '${2}');
 
 
-snippet rpa
+snippet rpc
 	Router::post('${1}', function() {
 		${2}
 	});
 
 snippet $
 	$this->${1}
+
+snippet html
+	<!DOCTYPE html>
+	<html lang="en">
+	    <head>
+		<meta charset="utf-8">
+		<title>${1}</title>
+	    </head>
+	    <body>
+
+	    </body>
+	</html>
+
